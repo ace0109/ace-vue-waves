@@ -14,7 +14,7 @@ npm i -S ace-vue-waves
 
 ```javascript
 import Vue from 'vue';
-import aceVueWaves from 'vue-waves';
+import aceVueWaves from 'ace-vue-waves';
 
 Vue.use(aceVueWaves);
 ```

@@ -1,22 +1,16 @@
 {
-  "name": "ace-vue-waves",
-  "version": "1.0.1",
-  "main": "lib/ace-vue-waves.umd.min.js",
-  "author": "wangcaiyuan",
-  "description": "一个vue自定义指令，实现按钮点击水波纹效果",
-  "keywords": [
-    "ace",
-    "vue",
-    "waves",
-    "vue-waves",
-    "ace-vue-waves"
-  ],
-  "private": false,
+  "name": "preview",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lib": "vue-cli-service build --target lib --name ace-vue-waves --dest lib ./src/main.js",
     "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "ace-vue-waves": "^1.0.0",
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -31,10 +25,5 @@
     "prettier": "^1.19.1",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ace0109/ace-vue-waves"
-  },
-  "license": "MIT"
+  }
 }
