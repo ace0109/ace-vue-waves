@@ -1,6 +1,6 @@
 {
   "name": "ace-vue-waves",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "lib/ace-vue-waves.umd.min.js",
   "author": "wangcaiyuan",
   "description": "一个vue自定义指令，实现按钮点击水波纹效果",
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "项目的git地址"
+    "url": "https://github.com/ace0109/ace-vue-waves"
   },
   "license": "MIT"
 }
