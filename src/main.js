@@ -1,8 +1,13 @@
-import Vue from "vue";
-import App from "./App.vue";
+import waves from './directive/waves'
 
-Vue.config.productionTip = false;
+const install = function(Vue) {
+  Vue.directive('waves', waves)
+}
 
-new Vue({
-  render: h => h(App)
-}).$mount("#app");
+if (window.Vue) {
+  window.waves = waves
+  window.Vue.use(install)
+}
+
+waves.install = install
+export default waves
